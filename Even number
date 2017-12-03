@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConditionalStatementApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //int i = 101;
+
+            //if (i % 2 == 0)
+            //{
+            //    Console.WriteLine("Even number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Odd number");
+            //}
+
+            //if (i > 100)
+            //{
+            //    Console.WriteLine("Greater than 100");
+            //}
+            //else if (i > 10)
+            //{
+            //    Console.WriteLine("Greater than 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Else");
+            //}
+
+            //int i = 10;
+
+            //if (i == 10 || i > 5)
+            //{
+
+            //}
+
+            for (int i = 1; i <= 50; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+
+            Console.ReadKey();
+        }
+    }
+}
