@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArrayIntroductionApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] names = new string[5];
+
+            //Console.Write("Please enter first person's name: ");
+            //name[0] = Console.ReadLine();
+            //Console.Write("Please enter second person's name: ");
+            //name[1] = Console.ReadLine();
+            names[0] = "Tonmoy";
+            names[1] = "Himel";
+            names[2] = "Faravy";
+            names[3] = "Ishtiaq";
+            names[4] = "Hasan";
+
+            Console.WriteLine("Length: " + names.Length);
+
+            //for (int i = 0; i < names.Length; i++)
+            //{
+            //    Console.WriteLine(names[i]);
+            //}
+
+            //int i = 0;
+            //while(i<names.Length)
+            //{
+            //    Console.WriteLine(names[i]);
+            //    i++;
+            //}
+
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine(names[i]);
+            //    i++;
+            //}
+            //while (i < names.Length);
+
+            int i = 0;
+            //while (i < 0)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            do
+            {
+                Console.WriteLine("Hello");
+                i++;
+            }
+            while (i < 5);
+
+            //Console.WriteLine(names[0]);
+            //Console.WriteLine(names[1]);
+            //Console.WriteLine(names[2]);
+            Console.ReadKey();
+        }
+    }
+}
